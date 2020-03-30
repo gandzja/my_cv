@@ -168,6 +168,11 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: 0.03em;
+  color: #ff6b08;
+}
+.tech-skills__list-item,
+.soft-skills__list-item {
+  color: #ffffff;
 }
 .about-me {
   padding-top: 90px;
