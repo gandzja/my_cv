@@ -116,12 +116,18 @@ html {
   max-width: 100%;
   overflow-x: hidden;
 }
-
 body {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
   background: #f5f7fa;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  transition: 1s;
 }
 .content {
   max-width: 1140px;
@@ -160,7 +166,11 @@ body {
   font-weight: 400;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
+}
+.contacts__link:hover {
   text-decoration: underline;
+  transition: 1s;
 }
 .tech-skills__list,
 .soft-skills__list {
