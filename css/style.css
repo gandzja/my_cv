@@ -327,4 +327,24 @@ a:hover {
   .aside {
     width: 100%;
   }
+  .photo {
+    width: 100%;
+  }
+  .aside__content {
+    padding-left: 20px;
+  }
+  .about-me {
+    padding-top: 45px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-me__inf,
+  .projects,
+  .experience,
+  .education {
+    padding: 0 20px;
+  }
+  .education {
+    margin-bottom: 40px;
+  }
 }
